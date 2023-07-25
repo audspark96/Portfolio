@@ -1,7 +1,8 @@
 :root {
   --primary-color: #fdf4ff;
   --secondary-color: #c0aeab;
-  --font-family: "Poppins", sans-serif;
+  --font: "Poppins", sans-serif;
+  --font-p: monospace;
 }
 a {
   color: #c0aeab;
@@ -14,6 +15,22 @@ h1 {
   font-weight: bolder;
   text-align: center;
   margin-top: 20px;
+  font-family: var(--font);
+}
+
+button {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: var(--secondary-color);
+  background-color: black;
+  border: 1px solid black;
+}
+
+div {
+  text-align: center;
 }
 
 img {
@@ -32,19 +49,16 @@ img:hover {
 footer {
   text-align: center;
   background-color: var(--primary-color);
-  font-family: var(--font-family: "Poppins", sans-serif);
+  font-family: var(--font);
 }
 
 footer a {
   color: var(--secondary-color);
 }
 
-.navbar {
-  background-color: var(--secondary-color);
-}
-
 p {
-  background-color: var(--secondary-color);
+  background-color: rgba(192, 174, 171, 0.7);
+  font-family: var(--font-p);
   border-radius: 6px;
   margin: 6px;
   padding: 15px;
@@ -58,6 +72,7 @@ p {
   margin: 20px;
   opacity: 70%;
 }
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -73,7 +88,10 @@ p {
   width: 70px;
   border: none;
 }
-
+.navbar {
+  background-color: var(--secondary-color);
+  position: sticky;
+}
 .outline {
   text-align: center;
   background-color: var(--secondary-color);
