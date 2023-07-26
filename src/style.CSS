@@ -83,7 +83,7 @@ p {
   background-color: rgba(192, 174, 171, 0.7);
   font-family: var(--font-p);
   border-radius: 6px;
-
+  margin: 10px;
   padding: 15px;
 }
 
@@ -101,6 +101,10 @@ p {
   justify-content: space-evenly;
   flex-direction: row;
   margin: 20px;
+}
+
+.email-link {
+  color: #c0aeab;
 }
 
 .headshot {
