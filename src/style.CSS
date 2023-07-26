@@ -143,3 +143,17 @@ p {
 .resume-img {
   width: 600px;
 }
+
+.see-resume-projects {
+  text-decoration: none;
+  color: black;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+}
+
+.see-ressume-projects:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: var(--secondary-color);
+}
