@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #fdf4ff;
+  --secondary-color: #c0aeab;
+  --font: "Poppins", sans-serif;
+  --font-p: monospace;
+}
+
+@media (max-width: 450) {
+  body {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+  }
+  button {
+    text-align: center;
+    margin: 0 auto;
+  }
+  div {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    max-width: 350px;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+a {
+  color: #c0aeab;
+}
+a:hover {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30px;
+  font-family: var(--font);
+}
+
+button {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: var(--secondary-color);
+  background-color: black;
+  border: 1px solid black;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border: 6px solid rgba(192, 174, 171, 0.7);
+  border-radius: 6px;
+  margin: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+}
+
+footer {
+  text-align: center;
+
+  font-family: var(--font);
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  margin: 0 20px;
+}
+
+p {
+  background-color: rgba(192, 174, 171, 0.7);
+  font-family: var(--font-p);
+  border-radius: 6px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.about-paragraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin: 15px;
+  opacity: 70%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.email-link {
+  color: #c0aeab;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+  border: 10px solid var(--secondary-color);
+}
+.logo {
+  width: 70px;
+  border: none;
+}
+.navbar {
+  background-color: var(--secondary-color);
+  position: sticky;
+}
+.outline {
+  text-align: center;
+  background-color: var(--secondary-color);
+  opacity: 70%;
+  font-family: "Lexend Peta", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.primary-link {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 200px;
+}
+.resume {
+  margin: 0 auto;
+  text-align: center;
+}
+.resume-img {
+  width: 600px;
+}
+
+.see-resume-projects {
+  text-decoration: none;
+  color: black;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+}
+
+.see-ressume-projects:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: var(--secondary-color);
+}
